@@ -1,0 +1,6 @@
+keywords:
+字典,浏览器,英语,单词,背单词,单词本,英语学习,翻译
+description:
+一款带有英语字典的简易浏览器，便于用户浏览英语网站，或者学习英语等。
+support:
+http://entoolkit.com/DictBrowserIntroduction.html
