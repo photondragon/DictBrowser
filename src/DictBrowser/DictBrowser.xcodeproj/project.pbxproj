@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94EA8F82171463840029D931 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EA8F81171463840029D931 /* UIKit.framework */; };
+		94EA8F84171463840029D931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EA8F83171463840029D931 /* Foundation.framework */; };
+		94EA8F86171463840029D931 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EA8F85171463840029D931 /* CoreGraphics.framework */; };
+		94EA8F8C171463840029D931 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94EA8F8A171463840029D931 /* InfoPlist.strings */; };
+		94EA8F8E171463840029D931 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA8F8D171463840029D931 /* main.m */; };
+		94EA8F92171463840029D931 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA8F91171463840029D931 /* AppDelegate.m */; };
+		94EA8F94171463840029D931 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA8F93171463840029D931 /* Default.png */; };
+		94EA8F96171463840029D931 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA8F95171463840029D931 /* Default@2x.png */; };
+		94EA8F98171463840029D931 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94EA8F97171463840029D931 /* Default-568h@2x.png */; };
+		94EA8F9B171463840029D931 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EA8F9A171463840029D931 /* ViewController.m */; };
+		94EA8F9E171463840029D931 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94EA8F9C171463840029D931 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94EA8F7E171463840029D931 /* DictBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EA8F81171463840029D931 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94EA8F83171463840029D931 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94EA8F85171463840029D931 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94EA8F89171463840029D931 /* DictBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DictBrowser-Info.plist"; sourceTree = "<group>"; };
+		94EA8F8B171463840029D931 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94EA8F8D171463840029D931 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94EA8F8F171463840029D931 /* DictBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DictBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		94EA8F90171463840029D931 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94EA8F91171463840029D931 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94EA8F93171463840029D931 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		94EA8F95171463840029D931 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		94EA8F97171463840029D931 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		94EA8F99171463840029D931 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94EA8F9A171463840029D931 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94EA8F9D171463840029D931 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94EA8F7B171463840029D931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EA8F82171463840029D931 /* UIKit.framework in Frameworks */,
+				94EA8F84171463840029D931 /* Foundation.framework in Frameworks */,
+				94EA8F86171463840029D931 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94EA8F75171463840029D931 = {
+			isa = PBXGroup;
+			children = (
+				94EA8F87171463840029D931 /* DictBrowser */,
+				94EA8F80171463840029D931 /* Frameworks */,
+				94EA8F7F171463840029D931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94EA8F7F171463840029D931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94EA8F7E171463840029D931 /* DictBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94EA8F80171463840029D931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94EA8F81171463840029D931 /* UIKit.framework */,
+				94EA8F83171463840029D931 /* Foundation.framework */,
+				94EA8F85171463840029D931 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94EA8F87171463840029D931 /* DictBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				94EA8F90171463840029D931 /* AppDelegate.h */,
+				94EA8F91171463840029D931 /* AppDelegate.m */,
+				94EA8F99171463840029D931 /* ViewController.h */,
+				94EA8F9A171463840029D931 /* ViewController.m */,
+				94EA8F9C171463840029D931 /* ViewController.xib */,
+				94EA8F88171463840029D931 /* Supporting Files */,
+			);
+			path = DictBrowser;
+			sourceTree = "<group>";
+		};
+		94EA8F88171463840029D931 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94EA8F89171463840029D931 /* DictBrowser-Info.plist */,
+				94EA8F8A171463840029D931 /* InfoPlist.strings */,
+				94EA8F8D171463840029D931 /* main.m */,
+				94EA8F8F171463840029D931 /* DictBrowser-Prefix.pch */,
+				94EA8F93171463840029D931 /* Default.png */,
+				94EA8F95171463840029D931 /* Default@2x.png */,
+				94EA8F97171463840029D931 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94EA8F7D171463840029D931 /* DictBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EA8FA1171463840029D931 /* Build configuration list for PBXNativeTarget "DictBrowser" */;
+			buildPhases = (
+				94EA8F7A171463840029D931 /* Sources */,
+				94EA8F7B171463840029D931 /* Frameworks */,
+				94EA8F7C171463840029D931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictBrowser;
+			productName = DictBrowser;
+			productReference = 94EA8F7E171463840029D931 /* DictBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94EA8F76171463840029D931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = photondragon;
+			};
+			buildConfigurationList = 94EA8F79171463840029D931 /* Build configuration list for PBXProject "DictBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94EA8F75171463840029D931;
+			productRefGroup = 94EA8F7F171463840029D931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94EA8F7D171463840029D931 /* DictBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94EA8F7C171463840029D931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EA8F8C171463840029D931 /* InfoPlist.strings in Resources */,
+				94EA8F94171463840029D931 /* Default.png in Resources */,
+				94EA8F96171463840029D931 /* Default@2x.png in Resources */,
+				94EA8F98171463840029D931 /* Default-568h@2x.png in Resources */,
+				94EA8F9E171463840029D931 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94EA8F7A171463840029D931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EA8F8E171463840029D931 /* main.m in Sources */,
+				94EA8F92171463840029D931 /* AppDelegate.m in Sources */,
+				94EA8F9B171463840029D931 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94EA8F8A171463840029D931 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94EA8F8B171463840029D931 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94EA8F9C171463840029D931 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94EA8F9D171463840029D931 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94EA8F9F171463840029D931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94EA8FA0171463840029D931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94EA8FA2171463840029D931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DictBrowser/DictBrowser-Prefix.pch";
+				INFOPLIST_FILE = "DictBrowser/DictBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94EA8FA3171463840029D931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DictBrowser/DictBrowser-Prefix.pch";
+				INFOPLIST_FILE = "DictBrowser/DictBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94EA8F79171463840029D931 /* Build configuration list for PBXProject "DictBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EA8F9F171463840029D931 /* Debug */,
+				94EA8FA0171463840029D931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EA8FA1171463840029D931 /* Build configuration list for PBXNativeTarget "DictBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EA8FA2171463840029D931 /* Debug */,
+				94EA8FA3171463840029D931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94EA8F76171463840029D931 /* Project object */;
+}
